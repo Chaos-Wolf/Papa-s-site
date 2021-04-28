@@ -26,3 +26,12 @@ function Slider(obj) {
 		setInterval(slider.next, slider.rate);		
 	}
 };
+function menubar() {
+	var x = document.getElementById("bar");
+	if (x.className === "navbar") {
+		x.className += ".responsive";
+	}
+	else {
+		x.className = "navbar";	
+	}
+}
