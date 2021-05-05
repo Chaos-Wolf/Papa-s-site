@@ -1,0 +1,10 @@
+<div class="used_car_entry">
+	<div class="entry_photo">
+		<img >
+	</div>
+	<div class="entry_description">
+		<h></h>
+		<p></p>
+		<a href="#"></a>
+	</div>
+</div>

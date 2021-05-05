@@ -29,9 +29,13 @@ function Slider(obj) {
 function menubar() {
 	var x = document.getElementById("bar");
 	if (x.className === "navbar") {
-		x.className += ".responsive";
+		x.className += " responsive";
 	}
 	else {
 		x.className = "navbar";	
 	}
+}
+
+function update(url) {
+ 	document['big_car'].src=url;
 }
