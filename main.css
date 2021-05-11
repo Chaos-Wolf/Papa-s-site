@@ -64,7 +64,7 @@
 	text-align: center;
 	color: var(--black);
 	height: 3.2em;
-	width: 100px;
+	flex: 20%;
 	line-height: 3.2em;
 	text-decoration: none;
 	margin-left: -2px;
@@ -162,7 +162,7 @@
 	position: relative;
 }
 @media (min-width: 1080px) {
-	.slider .contents {
+	.slider {
 		height: calc(1080px * .363);	
 	}
 }
@@ -328,6 +328,16 @@
 	align-items: center;
 	border: solid;
 	margin: 5px;
+}
+.slider .entry_photo img {
+	position: absolute;
+	width: 203px;
+	left: 0;
+	opacity: 0;
+	transition: opacity ls;
+}
+.slider .entry_photo img.shown {
+	opacity: 1;	
 }
 .entry_photo {
 	width: 203px;
