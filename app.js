@@ -6,6 +6,13 @@ $(function() {
 		rate: 2000
 	});
 });
+$(function() {
+	new Slider({
+		images: '.car_showcase img',
+		auto: true,
+		rate: 2000
+	});
+});
 function Slider(obj) {
 	this.images = $(obj.images);
 	this.auto = obj.auto;
