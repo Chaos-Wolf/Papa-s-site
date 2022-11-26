@@ -212,6 +212,28 @@
 	font-size: 20px;
 	padding: 5px;
 }
+.papas-store {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.papas-store h1 {
+	display: block;
+	background-color:  var(--side_green);
+	color:#FFFFFF;
+	padding: 20px;
+	font-size: 32px;
+	width: 100%;
+	margin: 0px;
+}
+.papas-store p {
+	text-align: left;
+	padding: 10px;
+}
+.papas-store-logo {
+	float: left;
+	padding: 20px;
+}
 .hours {
 	text-align: center;
 	padding: 10px;
@@ -248,6 +270,18 @@
 .general_links h {
 	font-weight: bold;
 	font-size: 20px;	
+}
+.general_links_banner {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	background-color:  var(--side_green);
+}
+.general_links_banner h {
+	font-weight: bold;
+	font-size: 32px;
+	color: var(--white);
 }
 #poi a {
 	color: var(--black);	
@@ -298,7 +332,7 @@
 }
 .auto_header {
 	text-align: center;	
-	padding: 10px;
+	padding: 20px;
 	font-size: 30px;
 	font-weight: bold;
 	background-color: var(--side_green);
